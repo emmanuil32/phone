@@ -1,0 +1,151 @@
+.telephone {
+    width: 260px;
+    height: 540px;
+    background-image: url(./img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* --------------------header-------------------- */
+.telephone__header {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    transform:translateY(-40px);
+}
+
+.telephone__header:hover{
+    
+}
+
+.header__icon {
+}
+
+.header__icon:hover{
+}
+/* --------------------header-------------------- */
+
+
+/* --------------------main-------------------- */
+.telephone__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telephone__block {
+    border-radius: 15px;
+    width: 180px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telephone-block__shirt {
+    width: 110px;
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 40px auto;
+/*     transform: translateX(200px); */ /* рухає елементи (вимірюється в пікселях) */
+}
+.telephone-block__shirt:hover{
+/*     transform: scaleX(2);  *//* збільшення і зменшення елементу (вимірюється в одиницях) */
+/* transform: rotate(-100deg); /* перевертає, крутить елемент (вимірюється в deg) */
+/* transform: skew(20deg); */ /* я не знаю крч він перевертає капець як картинку (вимірюється також в deg) */
+/* transform: translate(10px) rotate(200deg) scale(4); */ 
+    width: 120px;
+}
+
+
+.telephone__squares {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.telephone-squares__arrow-left {
+}
+
+.telephone-squares__box {
+    width: 30px;
+    height: 30px;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+
+.telephone-squares__box:hover{
+    width: 33px;
+    height: 33px;
+    transition: 1s;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.telephone-squares__arrow-right {
+}
+
+.line__inside {
+}
+/* --------------------main-------------------- */
+
+
+/* --------------------footer-------------------- */
+.telephone__footer {
+    margin: 20px;
+    width: 220px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+
+.footer-block__circle {
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telephone-btn {
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.telephone-btn:hover{
+    width: 105px;
+    height: 28px;
+    transition: 0.7s;
+}
+
+.footer-icon {
+    padding-right: 6px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-icon:nth-child(1){
+    color: rgba(255, 0, 0, 0.601);
+}
+
+.footer-icon:nth-child(2){
+    color: rgba(127, 127, 127, 0.485);
+}
+/* --------------------footer-------------------- */
